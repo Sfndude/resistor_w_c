@@ -16,7 +16,7 @@ int main(int argc, char* argv[]){
 			printf(" \x1B[1m\x1B[34mR%i\x1B[0m\t: %0.1f ohm\n",range,atof(argv[range]));
 		}
 		
-		printf("\n\x1B[1m\x1B[32mHasil Perhitungan\x1B[0m\nSeri\t: %0.1f ohm\tPrecision\t: %f ohm\n",s,s);
+		printf("\n\x1B[1m\x1B[32mResults of counter\x1B[0m\nSeri\t: %0.1f ohm\tPrecision\t: %f ohm\n",s,s);
 		printf("Pararel\t: %0.1f ohm\tPrecision\t: %f ohm\nTotal\t: %0.1f ohm\tPrecision\t: %f ohm\n",(1/p),(1/p),(s+(1/p)),(s+(1/p)));
 	}
 	pause();
